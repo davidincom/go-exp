@@ -32,6 +32,7 @@ func TestPointers() {
 	fmt.Println("pointer value is", ptr, myNumber)
 
 	var nilPtr *int
+	// skip warning
 	nilPtr = &myNumber
 
 	fmt.Println("pointer value is", ptr, "actual value is", val, nilPtr)

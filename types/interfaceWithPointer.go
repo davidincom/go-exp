@@ -34,7 +34,7 @@ func (c *circle2) perim() float64 {
 	return 2 * math.Pi * c.radius
 }
 
-func measure2(g geometry) {
+func measure2(g geometry2) {
 	fmt.Printf("Address of struct in measure: %p, %+v\n", g, g)
 	fmt.Println(g.area())
 	fmt.Println(g.perim())

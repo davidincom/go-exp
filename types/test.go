@@ -3,5 +3,8 @@ package types
 func TestAllTypes() {
 	// TestPointers()
 	// TestInterfaces()
-	TestInterfaceWithPointer()
+	// TestInterfaceWithPointer()
+	// TestStringRune()
+	// TestSizeAndTypes()
+	TestSlice()
 }
