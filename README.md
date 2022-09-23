@@ -1,4 +1,4 @@
-# Set go proxy to able to install go modules in china:
+# Set go proxy to able to install go modules in China:
 
 	$ go env -w GO111MODULE=on
 	$ go env -w GOPROXY=https://goproxy.cn,direct
