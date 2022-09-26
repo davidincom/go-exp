@@ -5,6 +5,6 @@ func TestAllTypes() {
 	// TestInterfaces()
 	// TestInterfaceWithPointer()
 	// TestStringRune()
-	TestSizeAndTypes()
-	TestSlice()
+	// TestSizeAndTypes()
+	// TestSlice()
 }

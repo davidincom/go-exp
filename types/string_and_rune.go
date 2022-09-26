@@ -5,6 +5,10 @@ import (
 	"unicode/utf8"
 )
 
+type point struct {
+	x, y int
+}
+
 // a Go string is a read-only slice of bytes. = []byte
 // a rune is an integer that represents a Unicode code point
 
@@ -57,4 +61,9 @@ func TestStringRune() {
 
 	var zhongc byte = '$'
 	fmt.Println(zhongc)
+
+	// format a string
+	p := point{1, 2}
+	fstr := fmt.Sprintf("Address of %+v in main: %p, with type: [%T]\n", p, &p, p)
+	fmt.Println(fstr)
 }

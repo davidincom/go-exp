@@ -1,5 +1,7 @@
 package goroutines
 
 func TestGoRoutines() {
-	TestRoutines()
+	// TestRoutines()
+	// TestWaitGroup()
+	// TestMutexes()
 }
