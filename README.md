@@ -17,3 +17,7 @@
     $ go mod tidy
 
     $ go build start.go
+
+    $ go test -timeout 30s -run ^Test_customQueue_Front$ goExp/containers
+
+    $ go test goExp/containers
