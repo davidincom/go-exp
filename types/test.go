@@ -7,4 +7,6 @@ func TestAllTypes() {
 	// TestStringRune()
 	// TestSizeAndTypes()
 	// TestSlice()
+	// TestStringFunctions()
+	TestStringFormatting()
 }

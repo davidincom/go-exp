@@ -3,5 +3,6 @@ package channels
 func TestAllChannels() {
 	// TestChannels()
 	// PromiseTest()
-	TestOsSignal()
+	// TestOsSignal()
+	// TickerDemo()
 }

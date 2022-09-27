@@ -2,6 +2,7 @@ package channels
 
 import (
 	"fmt"
+	"time"
 )
 
 /*
@@ -19,8 +20,10 @@ unbuffered Channels:
 */
 func TestUnbufferedChannels() {
 	messages := make(chan string)
-
+	// messages <- "ping"
 	go func() {
+		fmt.Println("Sleeping")
+		time.Sleep(time.Second * 2)
 		messages <- "ping"
 	}()
 
@@ -45,5 +48,5 @@ func TestBufferedChannels() {
 
 func TestChannels() {
 	TestUnbufferedChannels()
-	TestBufferedChannels()
+	// TestBufferedChannels()
 }
