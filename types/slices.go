@@ -1,6 +1,10 @@
 package types
 
-import "fmt"
+import (
+	"fmt"
+
+	"golang.org/x/exp/slices"
+)
 
 func TestSlice() {
 
@@ -12,6 +16,9 @@ func TestSlice() {
 	s[2] = "c"
 	fmt.Println("set:", s)
 	fmt.Println("get:", s[2])
+
+	has := slices.Contains(s, "b")
+	fmt.Println("slices contains b: ", has)
 
 	fmt.Println("len:", len(s))
 
@@ -44,4 +51,16 @@ func TestSlice() {
 		}
 	}
 	fmt.Println("2d: ", twoD)
+}
+
+func RemoveDuplicate[T string | int](sliceList []T) []T {
+	allkeys := make(map[T]bool)
+	list := []T{}
+	for _, item := range sliceList {
+		if _, value := allkeys[item]; !value {
+			allkeys[item] = true
+			list = append(list, item)
+		}
+	}
+	return list
 }
