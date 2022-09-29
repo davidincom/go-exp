@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"goExp/channels"
+	"goExp/containers"
 	"goExp/goroutines"
 	"goExp/types"
 )
@@ -12,4 +13,5 @@ func main() {
 	types.TestAllTypes()
 	goroutines.TestGoRoutines()
 	channels.TestAllChannels()
+	containers.TestMinHeap()
 }

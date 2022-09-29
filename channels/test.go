@@ -5,4 +5,6 @@ func TestAllChannels() {
 	// PromiseTest()
 	// TestOsSignal()
 	// TickerDemo()
+	// TestPingPong()
+	// TestWorkerPool()
 }
