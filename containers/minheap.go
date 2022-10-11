@@ -108,7 +108,7 @@ func TestMinHeap() {
 	}
 	minHeap.buildMinHeap()
 	for i := 0; i < len(inputArray); i++ {
-		fmt.Println(minHeap.remove())
+		// fmt.Println(minHeap.remove())
 	}
 	// fmt.Scanln()
 }

@@ -21,3 +21,5 @@
     $ go test -timeout 30s -run ^Test_customQueue_Front$ goExp/containers
 
     $ go test goExp/containers
+
+    $ go run -gcflags -m start.go

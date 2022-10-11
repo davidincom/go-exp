@@ -7,4 +7,6 @@ func TestAllChannels() {
 	// TickerDemo()
 	// TestPingPong()
 	// TestWorkerPool()
+	// TestBoring()
+	TestDaisyChain()
 }
