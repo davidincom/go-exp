@@ -10,5 +10,6 @@ func TestAllChannels() {
 	// TestBoring()
 	// TestDaisyChain()
 	// TestFibGenerator()
-	TestPrimeGenerator()
+	// TestPrimeGenerator()
+	TestConcPrimeSieve()
 }
