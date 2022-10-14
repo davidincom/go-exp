@@ -8,5 +8,7 @@ func TestAllChannels() {
 	// TestPingPong()
 	// TestWorkerPool()
 	// TestBoring()
-	TestDaisyChain()
+	// TestDaisyChain()
+	// TestFibGenerator()
+	TestPrimeGenerator()
 }

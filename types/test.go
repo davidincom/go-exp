@@ -9,4 +9,5 @@ func TestAllTypes() {
 	// TestSlice()
 	// TestStringFunctions()
 	// TestStringFormatting()
+	// TestGopherWriter()
 }

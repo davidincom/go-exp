@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"goExp/channels"
+	"goExp/gc"
 	"goExp/goroutines"
 	"goExp/types"
 )
@@ -23,4 +24,5 @@ func main() {
 	// sort.TestMinHeapSort()
 
 	// NewDock()
+	gc.TestAllGC()
 }
