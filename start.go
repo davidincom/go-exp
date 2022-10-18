@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/davidiwu/goexp/channels"
-	"github.com/davidiwu/goexp/gc"
-	"github.com/davidiwu/goexp/goroutines"
-	"github.com/davidiwu/goexp/types"
+	"github.com/davidiwu/go-exp/channels"
+	"github.com/davidiwu/go-exp/gc"
+	"github.com/davidiwu/go-exp/goroutines"
+	"github.com/davidiwu/go-exp/types"
 )
 
 type Duck struct {

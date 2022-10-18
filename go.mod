@@ -1,4 +1,4 @@
-module github.com/davidiwu/goexp
+module github.com/davidiwu/go-exp
 
 go 1.19
 
