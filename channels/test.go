@@ -11,5 +11,5 @@ func TestAllChannels() {
 	// TestDaisyChain()
 	// TestFibGenerator()
 	// TestPrimeGenerator()
-	TestConcPrimeSieve()
+	// TestConcPrimeSieve()
 }
