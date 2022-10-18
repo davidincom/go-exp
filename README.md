@@ -41,6 +41,12 @@
 
     $ go run -gcflags -m start.go
 
+    -- workspace --
+
+    $ go work init ./hello
+
+    $ go work use ./libs
+
 # Go Talk
 
 - Concurrency Patterns: https://go.dev/talks/2012/concurrency.slide
