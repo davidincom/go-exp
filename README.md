@@ -51,3 +51,19 @@
 
 - Concurrency Patterns: https://go.dev/talks/2012/concurrency.slide
 - Advanced Concurrency Patterns: https://go.dev/talks/2013/advconc.slide
+
+# How to publish your Go module, make it go-get able
+
+1. Give a proper name for your module: github.com/{your github account name}/{your github repo name}
+ 
+        eg: github.com/davidiwu/go-exp
+
+2. After code submitted, and ready to release, give it a version number in the form of a git tag
+
+        $ git tag v1.0.0
+        $ git push origin v1.0.0
+
+3. The version number should follow the semantic versioning model:
+
+        eg: v{major}.{minor}.{patch}[-{pre-release identifier}]        
+        v1.4.0-beta.2
