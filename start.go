@@ -5,6 +5,7 @@ import (
 
 	"github.com/davidiwu/go-exp/channels"
 	"github.com/davidiwu/go-exp/gc"
+	"github.com/davidiwu/go-exp/generics"
 	"github.com/davidiwu/go-exp/goroutines"
 	"github.com/davidiwu/go-exp/types"
 )
@@ -23,6 +24,7 @@ func main() {
 	channels.TestAllChannels()
 	// containers.TestMinHeap()
 	// sort.TestMinHeapSort()
+	generics.TestAllGeneric()
 
 	// NewDock()
 	gc.TestAllGC()
