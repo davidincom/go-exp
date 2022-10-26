@@ -1,5 +1,6 @@
 package generics
 
 func TestAllGeneric() {
-	TestGenericSum()
+	// TestGenericSum()
+	TestMaxGeneric()
 }

@@ -10,4 +10,5 @@ func TestAllTypes() {
 	// TestStringFunctions()
 	// TestStringFormatting()
 	// TestGopherWriter()
+	// TestStringBuilder()
 }
